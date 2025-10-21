@@ -3,7 +3,7 @@ name: Lenovo Auto Sign
 on:
   schedule:
     # 上海时区当天 8:15 和 16:15（对应 UTC 当天 00:15 和当天 8:15）
-    - cron: '15 2 * * *'
+    - cron: ''
   workflow_dispatch:
 
 jobs:
